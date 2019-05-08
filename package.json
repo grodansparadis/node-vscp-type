@@ -1,10 +1,10 @@
 {
   "name": "node-vscp-type",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "VSCP type constants",
   "main": "vscp_type.js",
   "scripts": {
-    "test": "test"
+    "test": "node test.js"
   },
   "repository": {
     "type": "git",
