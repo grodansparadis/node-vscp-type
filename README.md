@@ -1,2 +1,2 @@
-# noide-vscp-type
+# node-vscp-type
 VSCP type constants
