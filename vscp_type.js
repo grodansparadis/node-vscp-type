@@ -39,7 +39,7 @@
             !!!!!!!!!!!!!!!!!!!!  W A R N I N G  !!!!!!!!!!!!!!!!!!!!
                            This file is auto-generated
                 see https://github.com/grodansparadis/vscp-classes
-                        Generated: 2019-05-08 15:27:07.559445
+                        Generated: 2019-08-16 15:27:51.046994
 */
 
 
@@ -458,7 +458,8 @@ module.exports.VSCP_TYPE_WEATHER_WARNING_LEVEL2 = 47,
 module.exports.VSCP_TYPE_WEATHER_WARNING_LEVEL3 = 48,
 module.exports.VSCP_TYPE_WEATHER_WARNING_LEVEL4 = 49,
 module.exports.VSCP_TYPE_WEATHER_WARNING_LEVEL5 = 50,
-module.exports.VSCP_TYPE_WEATHER_ARMAGEDON = 51;
+module.exports.VSCP_TYPE_WEATHER_ARMAGEDON = 51,
+module.exports.VSCP_TYPE_WEATHER_UV_INDEX = 52;
  
 //  CLASS1.WEATHER_FORECAST = 95  -  Weather forecast
 // Event types is the same as  CLASS1.WEATHER = 90  -  Weather

@@ -23,3 +23,7 @@ console.log(vscp_type.VSCP_TYPE_MEASUREMENT_PRESSURE);
 
 ## Events
 Available events are [here](https://grodansparadis.gitbooks.io/the-vscp-specification/?id=start/)
+
+---
+
+This package is part of the [VSCP(Very Simple Control Protocol)](https://www.vscp.org) IoT framework.
