@@ -39,7 +39,7 @@
             !!!!!!!!!!!!!!!!!!!!  W A R N I N G  !!!!!!!!!!!!!!!!!!!!
                            This file is auto-generated
                 see https://github.com/grodansparadis/vscp-classes
-                        Generated: 2019-11-01 13:36:32.651098
+                        Generated: 2019-11-01 15:10:39.748074
 */
 
 
@@ -858,10 +858,10 @@ module.exports.VSCP2_TYPE_VSCPD_TIMER_RESUMED = 27,
 module.exports.VSCP2_TYPE_VSCPD_TIMER_STOPPED = 28,
 module.exports.VSCP2_TYPE_VSCPD_TIMER_ELLAPSED = 29,
 module.exports.VSCP2_TYPE_VSCPD_NEW_CALCULATION = 30,
-module.exports.VSCP2_TYPE_VSCPD_START = 31,
-module.exports.VSCP2_TYPE_VSCPD_STOP = 32,
-module.exports.VSCP2_TYPE_VSCPD_PAUSE = 33,
-module.exports.VSCP2_TYPE_VSCPD_RESUME = 34,
-module.exports.VSCP2_TYPE_VSCPD_RESTART = 35,
-module.exports.VSCP2_TYPE_VSCPD_CONFIG = 36 
+module.exports.VSCP2_TYPE_VSCPD_DRV3_START = 31,
+module.exports.VSCP2_TYPE_VSCPD_DRV3_STOP = 32,
+module.exports.VSCP2_TYPE_VSCPD_DRV3_PAUSE = 33,
+module.exports.VSCP2_TYPE_VSCPD_DRV3_RESUME = 34,
+module.exports.VSCP2_TYPE_VSCPD_DRV3_RESTART = 35,
+module.exports.VSCP2_TYPE_VSCPD_DRV3_CONFIG = 36 
  
