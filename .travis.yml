@@ -1,0 +1,13 @@
+###########################
+# Travis CI configuration #
+###########################
+
+language: node_js
+node_js:
+    - "lts/*"
+
+before_script:
+    - npm install eslint
+
+script:
+    - ./node_modules/.bin/eslint *.js
