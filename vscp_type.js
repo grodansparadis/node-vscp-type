@@ -39,7 +39,7 @@
             !!!!!!!!!!!!!!!!!!!!  W A R N I N G  !!!!!!!!!!!!!!!!!!!!
                            This file is auto-generated
                 see https://github.com/grodansparadis/vscp-classes
-                        Generated: 2019-11-01 15:10:39.748074
+                        Generated: 2019-11-07 22:12:17.487425
 */
 
 
@@ -800,7 +800,8 @@ module.exports.VSCP2_TYPE_PROTOCOL_READ_REGISTER = 1,
 module.exports.VSCP2_TYPE_PROTOCOL_WRITE_REGISTER = 2,
 module.exports.VSCP2_TYPE_PROTOCOL_READ_WRITE_RESPONSE = 3,
 module.exports.VSCP2_TYPE_PROTOCOL_HIGH_END_SERVER_CAPS = 20,
-module.exports.VSCP2_TYPE_PROTOCOL_WHO_IS_THERE_RESPONSE = 32;
+module.exports.VSCP2_TYPE_PROTOCOL_WHO_IS_THERE_RESPONSE = 32,
+module.exports.VSCP2_TYPE_PROTOCOL_HIGH_LEVEL_OBJECT = 42;
  
 //  CLASS2.CONTROL = 1025  -  Level II Control
 module.exports.VSCP2_TYPE_CONTROL_GENERAL = 0;
