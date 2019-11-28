@@ -39,7 +39,7 @@
             !!!!!!!!!!!!!!!!!!!!  W A R N I N G  !!!!!!!!!!!!!!!!!!!!
                            This file is auto-generated
                 see https://github.com/grodansparadis/vscp-classes
-                        Generated: 2019-11-27 10:24:50.824803
+                        Generated: 2019-11-28 23:05:28.028272
 */
 
 
@@ -309,7 +309,10 @@ module.exports.VSCP_TYPE_INFORMATION_UNLOCK = 76,
 module.exports.VSCP_TYPE_INFORMATION_DATETIME = 77,
 module.exports.VSCP_TYPE_INFORMATION_RISING = 78,
 module.exports.VSCP_TYPE_INFORMATION_FALLING = 79,
-module.exports.VSCP_TYPE_INFORMATION_UPDATED = 80;
+module.exports.VSCP_TYPE_INFORMATION_UPDATED = 80,
+module.exports.VSCP_TYPE_INFORMATION_CONNECT = 81,
+module.exports.VSCP_TYPE_INFORMATION_DISCONNECT = 82,
+module.exports.VSCP_TYPE_INFORMATION_RECONNECT = 83;
  
 //  CLASS1.CONTROL = 30  -  Control
 module.exports.VSCP_TYPE_CONTROL_GENERAL = 0,
