@@ -1,8 +1,8 @@
 // VSCP type definition file
 //
-// Copyright (C) 2012-2019 Ake Hedman, Grodans Paradis AB
+// Copyright (C) 2012-2020 Ake Hedman, Grodans Paradis AB
 // <akhe@grodansparadis.com>
-// Copyright (c) 2015-2019 Andreas Merkle
+// Copyright (c) 2015-2020 Andreas Merkle
 // <vscp@blue-andi.de>
 //
 // Licence:
@@ -11,7 +11,7 @@
 //
 // The MIT License (MIT)
 //
-// Copyright (c) 2012-2019 Grodans Paradis AB (Paradise of the Frog)
+// Copyright (c) 2012-2020 Grodans Paradis AB (Paradise of the Frog)
 //
 // Permission is hereby granted, free of charge, to any person obtaining a copy
 // of this software and associated documentation files (the "Software"), to deal
@@ -39,7 +39,7 @@
             !!!!!!!!!!!!!!!!!!!!  W A R N I N G  !!!!!!!!!!!!!!!!!!!!
                            This file is auto-generated
                 see https://github.com/grodansparadis/vscp-classes
-                        Generated: 2019-11-28 23:05:28.028272
+                        Generated: 2020-01-02 17:51:06.763837
 */
 
 
@@ -803,8 +803,7 @@ module.exports.VSCP2_TYPE_PROTOCOL_READ_REGISTER = 1,
 module.exports.VSCP2_TYPE_PROTOCOL_WRITE_REGISTER = 2,
 module.exports.VSCP2_TYPE_PROTOCOL_READ_WRITE_RESPONSE = 3,
 module.exports.VSCP2_TYPE_PROTOCOL_HIGH_END_SERVER_CAPS = 20,
-module.exports.VSCP2_TYPE_PROTOCOL_WHO_IS_THERE_RESPONSE = 32,
-module.exports.VSCP2_TYPE_PROTOCOL_HIGH_LEVEL_OBJECT = 42;
+module.exports.VSCP2_TYPE_PROTOCOL_WHO_IS_THERE_RESPONSE = 32;
  
 //  CLASS2.CONTROL = 1025  -  Level II Control
 module.exports.VSCP2_TYPE_CONTROL_GENERAL = 0;
