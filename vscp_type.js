@@ -1,8 +1,8 @@
 // VSCP type definition file
 //
-// Copyright (C) 2012-2020 Ake Hedman, Grodans Paradis AB
+// Copyright © 2012-2020 Ake Hedman, Grodans Paradis AB
 // <akhe@grodansparadis.com>
-// Copyright (c) 2015-2020 Andreas Merkle
+// Copyright © 2015-2020 Andreas Merkle
 // <vscp@blue-andi.de>
 //
 // Licence:
@@ -11,7 +11,7 @@
 //
 // The MIT License (MIT)
 //
-// Copyright (c) 2012-2020 Grodans Paradis AB (Paradise of the Frog)
+// Copyright © 2012-2020 Grodans Paradis AB (Paradise of the Frog)
 //
 // Permission is hereby granted, free of charge, to any person obtaining a copy
 // of this software and associated documentation files (the "Software"), to deal
@@ -39,7 +39,7 @@
             !!!!!!!!!!!!!!!!!!!!  W A R N I N G  !!!!!!!!!!!!!!!!!!!!
                            This file is auto-generated
                 see https://github.com/grodansparadis/vscp-classes
-                        Generated: 2020-01-02 18:31:12.649493
+                        Generated: 2020-01-23 10:19:56.017585
 */
 
 
@@ -841,35 +841,12 @@ module.exports.VSCP2_TYPE_VSCPD_GENERAL = 0,
 module.exports.VSCP2_TYPE_VSCPD_LOOP = 1,
 module.exports.VSCP2_TYPE_VSCPD_PAUSE = 3,
 module.exports.VSCP2_TYPE_VSCPD_ACTIVATE = 4,
-module.exports.VSCP2_TYPE_VSCPD_SECOND = 5,
-module.exports.VSCP2_TYPE_VSCPD_MINUTE = 6,
-module.exports.VSCP2_TYPE_VSCPD_HOUR = 7,
-module.exports.VSCP2_TYPE_VSCPD_NOON = 8,
-module.exports.VSCP2_TYPE_VSCPD_MIDNIGHT = 9,
-module.exports.VSCP2_TYPE_VSCPD_WEEK = 11,
-module.exports.VSCP2_TYPE_VSCPD_MONTH = 12,
-module.exports.VSCP2_TYPE_VSCPD_QUARTER = 13,
-module.exports.VSCP2_TYPE_VSCPD_YEAR = 14,
-module.exports.VSCP2_TYPE_VSCPD_RANDOM_MINUTE = 15,
-module.exports.VSCP2_TYPE_VSCPD_RANDOM_HOUR = 16,
-module.exports.VSCP2_TYPE_VSCPD_RANDOM_DAY = 17,
-module.exports.VSCP2_TYPE_VSCPD_RANDOM_WEEK = 18,
-module.exports.VSCP2_TYPE_VSCPD_RANDOM_MONTH = 19,
-module.exports.VSCP2_TYPE_VSCPD_RANDOM_YEAR = 20,
-module.exports.VSCP2_TYPE_VSCPD_DUSK = 21,
-module.exports.VSCP2_TYPE_VSCPD_DAWN = 22,
-module.exports.VSCP2_TYPE_VSCPD_STARTING_UP = 23,
-module.exports.VSCP2_TYPE_VSCPD_SHUTTING_DOWN = 24,
-module.exports.VSCP2_TYPE_VSCPD_TIMER_STARTED = 25,
-module.exports.VSCP2_TYPE_VSCPD_TIMER_PAUSED = 26,
-module.exports.VSCP2_TYPE_VSCPD_TIMER_RESUMED = 27,
-module.exports.VSCP2_TYPE_VSCPD_TIMER_STOPPED = 28,
-module.exports.VSCP2_TYPE_VSCPD_TIMER_ELLAPSED = 29,
-module.exports.VSCP2_TYPE_VSCPD_NEW_CALCULATION = 30,
-module.exports.VSCP2_TYPE_VSCPD_DRV3_START = 31,
-module.exports.VSCP2_TYPE_VSCPD_DRV3_STOP = 32,
-module.exports.VSCP2_TYPE_VSCPD_DRV3_PAUSE = 33,
-module.exports.VSCP2_TYPE_VSCPD_DRV3_RESUME = 34,
-module.exports.VSCP2_TYPE_VSCPD_DRV3_RESTART = 35,
-module.exports.VSCP2_TYPE_VSCPD_DRV3_CONFIG = 36 
+module.exports.VSCP2_TYPE_VSCPD_STARTING_UP = 5,
+module.exports.VSCP2_TYPE_VSCPD_SHUTTING_DOWN = 6,
+module.exports.VSCP2_TYPE_VSCPD_DRV3_START = 7,
+module.exports.VSCP2_TYPE_VSCPD_DRV3_STOP = 8,
+module.exports.VSCP2_TYPE_VSCPD_DRV3_PAUSE = 9,
+module.exports.VSCP2_TYPE_VSCPD_DRV3_RESUME = 10,
+module.exports.VSCP2_TYPE_VSCPD_DRV3_RESTART = 11,
+module.exports.VSCP2_TYPE_VSCPD_DRV3_CONFIG = 12 
  
