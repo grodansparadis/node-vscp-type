@@ -21,7 +21,7 @@ const vscp_type = require('node-vscp-type');
 // To get numerical value for type
 console.log(vscp_type.VSCP_TYPE_MEASUREMENT_PRESSURE);
 
-// Ti get symbolic value of  class/type pair
+// To get symbolic value of  class/type pair
 // vscp_type(vscpClass,vscpType)
 console.log(vscp_type(65535,12));
 ```
