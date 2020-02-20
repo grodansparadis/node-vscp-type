@@ -39,8 +39,10 @@
             !!!!!!!!!!!!!!!!!!!!  W A R N I N G  !!!!!!!!!!!!!!!!!!!!
                            This file is auto-generated
                 see https://github.com/grodansparadis/vscp-classes
-                        Generated: 2020-02-19 17:56:30.848942
+                        Generated: 2020-02-20 23:07:58.284102
 */
+
+'use strict';
 
 /** 
  * VSCP type map
