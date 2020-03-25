@@ -39,7 +39,7 @@
             !!!!!!!!!!!!!!!!!!!!  W A R N I N G  !!!!!!!!!!!!!!!!!!!!
                            This file is auto-generated
                 see https://github.com/grodansparadis/vscp-classes
-                        Generated: 2020-02-20 23:07:58.284102
+                        Generated: 2020-03-25 16:54:55.266743
 */
 
 'use strict';
@@ -504,7 +504,9 @@ module.exports.VSCP_TYPE_INFORMATION_FALLING = 79,
 module.exports.VSCP_TYPE_INFORMATION_UPDATED = 80,
 module.exports.VSCP_TYPE_INFORMATION_CONNECT = 81,
 module.exports.VSCP_TYPE_INFORMATION_DISCONNECT = 82,
-module.exports.VSCP_TYPE_INFORMATION_RECONNECT = 83;
+module.exports.VSCP_TYPE_INFORMATION_RECONNECT = 83,
+module.exports.VSCP_TYPE_INFORMATION_ENTER = 84,
+module.exports.VSCP_TYPE_INFORMATION_EXIT = 85;
 
 
 vscp_type_map.set( (20 << 16) + 0,'VSCP_TYPE_INFORMATION_GENERAL'); 
@@ -591,6 +593,8 @@ vscp_type_map.set( (20 << 16) + 80,'VSCP_TYPE_INFORMATION_UPDATED');
 vscp_type_map.set( (20 << 16) + 81,'VSCP_TYPE_INFORMATION_CONNECT'); 
 vscp_type_map.set( (20 << 16) + 82,'VSCP_TYPE_INFORMATION_DISCONNECT'); 
 vscp_type_map.set( (20 << 16) + 83,'VSCP_TYPE_INFORMATION_RECONNECT'); 
+vscp_type_map.set( (20 << 16) + 84,'VSCP_TYPE_INFORMATION_ENTER'); 
+vscp_type_map.set( (20 << 16) + 85,'VSCP_TYPE_INFORMATION_EXIT'); 
  
 //  CLASS1.CONTROL = 30  -  Control
 module.exports.VSCP_TYPE_CONTROL_GENERAL = 0,
