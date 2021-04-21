@@ -39,7 +39,7 @@
             !!!!!!!!!!!!!!!!!!!!  W A R N I N G  !!!!!!!!!!!!!!!!!!!!
                            This file is auto-generated
                 see https://github.com/grodansparadis/vscp-classes
-                        Generated: 2020-12-02 14:56:33.577830
+                        Generated: 2021-04-21 07:24:42.245722
 */
 
 'use strict';
@@ -214,7 +214,11 @@ module.exports.VSCP_TYPE_SECURITY_PIN_ERROR = 29,
 module.exports.VSCP_TYPE_SECURITY_PASSWORD_OK = 30,
 module.exports.VSCP_TYPE_SECURITY_PASSWORD_FAIL = 31,
 module.exports.VSCP_TYPE_SECURITY_PASSWORD_WARNING = 32,
-module.exports.VSCP_TYPE_SECURITY_PASSWORD_ERROR = 33;
+module.exports.VSCP_TYPE_SECURITY_PASSWORD_ERROR = 33,
+module.exports.VSCP_TYPE_SECURITY_GAS_SENSOR = 34,
+module.exports.VSCP_TYPE_SECURITY_IN_MOTION_DETECTED = 35,
+module.exports.VSCP_TYPE_SECURITY_NOT_IN_MOTION_DETECTED = 36,
+module.exports.VSCP_TYPE_SECURITY_VIBRATION_DETECTED = 37;
 
 
 vscp_type_map.set( (2 << 16) + 0,'VSCP_TYPE_SECURITY_GENERAL'); 
@@ -251,6 +255,10 @@ vscp_type_map.set( (2 << 16) + 30,'VSCP_TYPE_SECURITY_PASSWORD_OK');
 vscp_type_map.set( (2 << 16) + 31,'VSCP_TYPE_SECURITY_PASSWORD_FAIL'); 
 vscp_type_map.set( (2 << 16) + 32,'VSCP_TYPE_SECURITY_PASSWORD_WARNING'); 
 vscp_type_map.set( (2 << 16) + 33,'VSCP_TYPE_SECURITY_PASSWORD_ERROR'); 
+vscp_type_map.set( (2 << 16) + 34,'VSCP_TYPE_SECURITY_GAS_SENSOR'); 
+vscp_type_map.set( (2 << 16) + 35,'VSCP_TYPE_SECURITY_IN_MOTION_DETECTED'); 
+vscp_type_map.set( (2 << 16) + 36,'VSCP_TYPE_SECURITY_NOT_IN_MOTION_DETECTED'); 
+vscp_type_map.set( (2 << 16) + 37,'VSCP_TYPE_SECURITY_VIBRATION_DETECTED'); 
  
 //  CLASS1.MEASUREMENT = 10  -  Measurement
 module.exports.VSCP_TYPE_MEASUREMENT_GENERAL = 0,
@@ -315,7 +323,10 @@ module.exports.VSCP_TYPE_MEASUREMENT_SOUND_PRESSURE = 58,
 module.exports.VSCP_TYPE_MEASUREMENT_SOUND_DENSITY = 59,
 module.exports.VSCP_TYPE_MEASUREMENT_SOUND_LEVEL = 60,
 module.exports.VSCP_TYPE_MEASUREMENT_RADIATION_DOSE_EQ = 61,
-module.exports.VSCP_TYPE_MEASUREMENT_RADIATION_DOSE_EXPOSURE = 62;
+module.exports.VSCP_TYPE_MEASUREMENT_RADIATION_DOSE_EXPOSURE = 62,
+module.exports.VSCP_TYPE_MEASUREMENT_POWER_FACTOR = 63,
+module.exports.VSCP_TYPE_MEASUREMENT_REACTIVE_POWER = 64,
+module.exports.VSCP_TYPE_MEASUREMENT_REACTIVE_ENERGY = 65;
 
 
 vscp_type_map.set( (10 << 16) + 0,'VSCP_TYPE_MEASUREMENT_GENERAL'); 
@@ -381,6 +392,9 @@ vscp_type_map.set( (10 << 16) + 59,'VSCP_TYPE_MEASUREMENT_SOUND_DENSITY');
 vscp_type_map.set( (10 << 16) + 60,'VSCP_TYPE_MEASUREMENT_SOUND_LEVEL'); 
 vscp_type_map.set( (10 << 16) + 61,'VSCP_TYPE_MEASUREMENT_RADIATION_DOSE_EQ'); 
 vscp_type_map.set( (10 << 16) + 62,'VSCP_TYPE_MEASUREMENT_RADIATION_DOSE_EXPOSURE'); 
+vscp_type_map.set( (10 << 16) + 63,'VSCP_TYPE_MEASUREMENT_POWER_FACTOR'); 
+vscp_type_map.set( (10 << 16) + 64,'VSCP_TYPE_MEASUREMENT_REACTIVE_POWER'); 
+vscp_type_map.set( (10 << 16) + 65,'VSCP_TYPE_MEASUREMENT_REACTIVE_ENERGY'); 
  
 //  CLASS1.MEASUREMENTX1 = 11  -  Measurement
 module.exports.VSCP_TYPE_MEASUREMENTX1_GENERAL = 0;
@@ -512,7 +526,8 @@ module.exports.VSCP_TYPE_INFORMATION_RECONNECT = 83,
 module.exports.VSCP_TYPE_INFORMATION_ENTER = 84,
 module.exports.VSCP_TYPE_INFORMATION_EXIT = 85,
 module.exports.VSCP_TYPE_INFORMATION_INCREMENTED = 86,
-module.exports.VSCP_TYPE_INFORMATION_DECREMENTED = 87;
+module.exports.VSCP_TYPE_INFORMATION_DECREMENTED = 87,
+module.exports.VSCP_TYPE_INFORMATION_PROXIMITY_DETECTED = 88;
 
 
 vscp_type_map.set( (20 << 16) + 0,'VSCP_TYPE_INFORMATION_GENERAL'); 
@@ -603,6 +618,7 @@ vscp_type_map.set( (20 << 16) + 84,'VSCP_TYPE_INFORMATION_ENTER');
 vscp_type_map.set( (20 << 16) + 85,'VSCP_TYPE_INFORMATION_EXIT'); 
 vscp_type_map.set( (20 << 16) + 86,'VSCP_TYPE_INFORMATION_INCREMENTED'); 
 vscp_type_map.set( (20 << 16) + 87,'VSCP_TYPE_INFORMATION_DECREMENTED'); 
+vscp_type_map.set( (20 << 16) + 88,'VSCP_TYPE_INFORMATION_PROXIMITY_DETECTED'); 
  
 //  CLASS1.CONTROL = 30  -  Control
 module.exports.VSCP_TYPE_CONTROL_GENERAL = 0,
@@ -1215,7 +1231,9 @@ module.exports.VSCP_TYPE_DIAGNOSTIC_COOLING_FAIL = 75,
 module.exports.VSCP_TYPE_DIAGNOSTIC_HEATING_FAIL = 76,
 module.exports.VSCP_TYPE_DIAGNOSTIC_TX_FAIL = 77,
 module.exports.VSCP_TYPE_DIAGNOSTIC_RX_FAIL = 78,
-module.exports.VSCP_TYPE_DIAGNOSTIC_EXT_IC_FAIL = 79;
+module.exports.VSCP_TYPE_DIAGNOSTIC_EXT_IC_FAIL = 79,
+module.exports.VSCP_TYPE_DIAGNOSTIC_CHARGING_ON = 80,
+module.exports.VSCP_TYPE_DIAGNOSTIC_CHARGING_OFF = 81;
 
 
 vscp_type_map.set( (506 << 16) + 0,'VSCP_TYPE_DIAGNOSTIC_GENERAL'); 
@@ -1298,6 +1316,8 @@ vscp_type_map.set( (506 << 16) + 76,'VSCP_TYPE_DIAGNOSTIC_HEATING_FAIL');
 vscp_type_map.set( (506 << 16) + 77,'VSCP_TYPE_DIAGNOSTIC_TX_FAIL'); 
 vscp_type_map.set( (506 << 16) + 78,'VSCP_TYPE_DIAGNOSTIC_RX_FAIL'); 
 vscp_type_map.set( (506 << 16) + 79,'VSCP_TYPE_DIAGNOSTIC_EXT_IC_FAIL'); 
+vscp_type_map.set( (506 << 16) + 80,'VSCP_TYPE_DIAGNOSTIC_CHARGING_ON'); 
+vscp_type_map.set( (506 << 16) + 81,'VSCP_TYPE_DIAGNOSTIC_CHARGING_OFF'); 
  
 //  CLASS1.ERROR = 508  -  Error
 module.exports.VSCP_TYPE_ERROR_SUCCESS = 0,
@@ -1576,7 +1596,7 @@ vscp_type_map.set( (1026 << 16) + 2,'VSCP2_TYPE_INFORMATION_HEART_BEAT');
 vscp_type_map.set( (1026 << 16) + 3,'VSCP2_TYPE_INFORMATION_PROXY_HEART_BEAT'); 
 vscp_type_map.set( (1026 << 16) + 4,'VSCP2_TYPE_INFORMATION_CHANNEL_ANNOUNCE'); 
  
-//  CLASS2.TEXT2SPEECH = 1027  -  Text to speech
+//  CLASS2.TEXT2SPEECH = 1027  -  Level II Text to speech
 module.exports.VSCP2_TYPE_TEXT2SPEECH_GENERAL = 0,
 module.exports.VSCP2_TYPE_TEXT2SPEECH_TALK = 1;
 
@@ -1584,7 +1604,7 @@ module.exports.VSCP2_TYPE_TEXT2SPEECH_TALK = 1;
 vscp_type_map.set( (1027 << 16) + 0,'VSCP2_TYPE_TEXT2SPEECH_GENERAL'); 
 vscp_type_map.set( (1027 << 16) + 1,'VSCP2_TYPE_TEXT2SPEECH_TALK'); 
  
-//  CLASS2.HLO = 1028  -  High Level Object
+//  CLASS2.HLO = 1028  -  Level II High Level Object
 module.exports.VSCP2_TYPE_HLO_GENERAL = 0,
 module.exports.VSCP2_TYPE_HLO_COMMAND = 1,
 module.exports.VSCP2_TYPE_HLO_RESPONSE = 2;
@@ -1606,13 +1626,13 @@ module.exports.VSCP2_TYPE_DISPLAY_GENERAL = 0;
 
 vscp_type_map.set( (1030 << 16) + 0,'VSCP2_TYPE_DISPLAY_GENERAL'); 
  
-//  CLASS2.MEASUREMENT_STR = 1040  -  Measurement string
+//  CLASS2.MEASUREMENT_STR = 1040  -  Level II Measurement string
 // Event types is the same as  CLASS1.MEASUREMENT = 10  -  Measurement
  
-//  CLASS2.MEASUREMENT_FLOAT = 1060  -  Measurement float
+//  CLASS2.MEASUREMENT_FLOAT = 1060  -  Level II Measurement float
 // Event types is the same as  CLASS1.MEASUREMENT = 10  -  Measurement
  
-//  CLASS2.VSCPD = 65535  -  VSCP Daemon internal events
+//  CLASS2.VSCPD = 65535  -  Level II VSCP Daemon internal events
 module.exports.VSCP2_TYPE_VSCPD_GENERAL = 0,
 module.exports.VSCP2_TYPE_VSCPD_LOOP = 1,
 module.exports.VSCP2_TYPE_VSCPD_PAUSE = 3,
