@@ -1,8 +1,8 @@
 // VSCP type definition file
 //
-// Copyright © 2012-2020 Ake Hedman, Grodans Paradis AB
-// <akhe@grodansparadis.com>
-// Copyright © 2015-2020 Andreas Merkle
+// Copyright © 2012-2021 Ake Hedman, The VSCP Project
+// <info@vscp.org>
+// Copyright © 2015-2021 Andreas Merkle
 // <vscp@blue-andi.de>
 //
 // Licence:
@@ -11,7 +11,7 @@
 //
 // The MIT License (MIT)
 //
-// Copyright © 2012-2020 Grodans Paradis AB (Paradise of the Frog)
+// Copyright © 2012-2021 The VSCP Project
 //
 // Permission is hereby granted, free of charge, to any person obtaining a copy
 // of this software and associated documentation files (the "Software"), to deal
@@ -32,14 +32,14 @@
 // THE SOFTWARE.
 //
 // Alternative licenses for VSCP & Friends may be arranged by contacting
-// Grodans Paradis AB at info@grodansparadis.com, http://www.grodansparadis.com
+// The VSCP Project at info@grodansparadis.com, http://www.grodansparadis.com
 //
 
 /*
             !!!!!!!!!!!!!!!!!!!!  W A R N I N G  !!!!!!!!!!!!!!!!!!!!
                            This file is auto-generated
                 see https://github.com/grodansparadis/vscp-classes
-                        Generated: 2021-04-21 07:24:42.245722
+                        Generated: 2021-08-03 15:32:34.834253
 */
 
 'use strict';
@@ -163,7 +163,8 @@ module.exports.VSCP_TYPE_ALARM_EMERGENCY_RESET = 8,
 module.exports.VSCP_TYPE_ALARM_EMERGENCY_RESUME = 9,
 module.exports.VSCP_TYPE_ALARM_ARM = 10,
 module.exports.VSCP_TYPE_ALARM_DISARM = 11,
-module.exports.VSCP_TYPE_ALARM_WATCHDOG = 12;
+module.exports.VSCP_TYPE_ALARM_WATCHDOG = 12,
+module.exports.VSCP_TYPE_ALARM_RESET = 13;
 
 
 vscp_type_map.set( (1 << 16) + 0,'VSCP_TYPE_ALARM_GENERAL'); 
@@ -179,6 +180,7 @@ vscp_type_map.set( (1 << 16) + 9,'VSCP_TYPE_ALARM_EMERGENCY_RESUME');
 vscp_type_map.set( (1 << 16) + 10,'VSCP_TYPE_ALARM_ARM'); 
 vscp_type_map.set( (1 << 16) + 11,'VSCP_TYPE_ALARM_DISARM'); 
 vscp_type_map.set( (1 << 16) + 12,'VSCP_TYPE_ALARM_WATCHDOG'); 
+vscp_type_map.set( (1 << 16) + 13,'VSCP_TYPE_ALARM_RESET'); 
  
 //  CLASS1.SECURITY = 2  -  Security
 module.exports.VSCP_TYPE_SECURITY_GENERAL = 0,
