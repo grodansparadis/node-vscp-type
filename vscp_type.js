@@ -39,7 +39,7 @@
             !!!!!!!!!!!!!!!!!!!!  W A R N I N G  !!!!!!!!!!!!!!!!!!!!
                            This file is auto-generated
                 see https://github.com/grodansparadis/vscp-classes
-                        Generated: 2021-10-05 16:38:46.149794
+                        Generated: 2021-10-06 18:25:29.923585
 */
 
 'use strict';

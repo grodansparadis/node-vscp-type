@@ -1,6 +1,6 @@
 {
   "name": "node-vscp-type",
-  "version": "1.0.16",
+  "version": "1.0.18",
   "description": "VSCP type constants",
   "main": "vscp_type.js",
   "scripts": {
@@ -25,11 +25,11 @@
   },
   "homepage": "https://github.com/grodansparadis/node-vscp-type#readme",
   "devDependencies": {
-    "eslint": "^7.32.0",
-    "eslint-config-standard": "^16.0.3",
-    "eslint-plugin-import": "^2.23.4",
+    "eslint": "^8.15.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-promise": "^5.1.0",
+    "eslint-plugin-promise": "^6.0.0",
     "eslint-plugin-standard": "^4.1.0"
   }
 }
