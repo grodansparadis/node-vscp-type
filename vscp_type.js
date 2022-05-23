@@ -39,7 +39,7 @@
             !!!!!!!!!!!!!!!!!!!!  W A R N I N G  !!!!!!!!!!!!!!!!!!!!
                            This file is auto-generated
                 see https://github.com/grodansparadis/vscp-classes
-                        Generated: 2021-10-06 18:25:29.923585
+                        Generated: 2022-05-23 16:40:01.973265
 */
 
 'use strict';
@@ -1568,7 +1568,9 @@ module.exports.VSCP2_TYPE_PROTOCOL_READ_REGISTER = 1,
 module.exports.VSCP2_TYPE_PROTOCOL_WRITE_REGISTER = 2,
 module.exports.VSCP2_TYPE_PROTOCOL_READ_WRITE_RESPONSE = 3,
 module.exports.VSCP2_TYPE_PROTOCOL_HIGH_END_SERVER_CAPS = 20,
-module.exports.VSCP2_TYPE_PROTOCOL_WHO_IS_THERE_RESPONSE = 32;
+module.exports.VSCP2_TYPE_PROTOCOL_WHO_IS_THERE_RESPONSE = 32,
+module.exports.VSCP2_TYPE_PROTOCOL_GET_MATRIX_INFO_RESPONSE = 34,
+module.exports.VSCP2_TYPE_PROTOCOL_GET_EMBEDDED_MDF_RESPONSE = 36;
 
 
 vscp_type_map.set( (1024 << 16) + 0,'VSCP2_TYPE_PROTOCOL_GENERAL'); 
@@ -1577,6 +1579,8 @@ vscp_type_map.set( (1024 << 16) + 2,'VSCP2_TYPE_PROTOCOL_WRITE_REGISTER');
 vscp_type_map.set( (1024 << 16) + 3,'VSCP2_TYPE_PROTOCOL_READ_WRITE_RESPONSE'); 
 vscp_type_map.set( (1024 << 16) + 20,'VSCP2_TYPE_PROTOCOL_HIGH_END_SERVER_CAPS'); 
 vscp_type_map.set( (1024 << 16) + 32,'VSCP2_TYPE_PROTOCOL_WHO_IS_THERE_RESPONSE'); 
+vscp_type_map.set( (1024 << 16) + 34,'VSCP2_TYPE_PROTOCOL_GET_MATRIX_INFO_RESPONSE'); 
+vscp_type_map.set( (1024 << 16) + 36,'VSCP2_TYPE_PROTOCOL_GET_EMBEDDED_MDF_RESPONSE'); 
  
 //  CLASS2.CONTROL = 1025  -  Level II Control
 module.exports.VSCP2_TYPE_CONTROL_GENERAL = 0;
