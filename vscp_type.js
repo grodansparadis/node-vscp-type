@@ -39,7 +39,7 @@
             !!!!!!!!!!!!!!!!!!!!  W A R N I N G  !!!!!!!!!!!!!!!!!!!!
                            This file is auto-generated
                 see https://github.com/grodansparadis/vscp-classes
-                        Generated: 2022-12-29 13:58:09.232081
+                        Generated: 2023-02-26 22:28:57.785402
 */
 
 'use strict';
@@ -1633,6 +1633,14 @@ module.exports.VSCP2_TYPE_DISPLAY_GENERAL = 0;
 
 
 vscp_type_map.set( (1030 << 16) + 0,'VSCP2_TYPE_DISPLAY_GENERAL'); 
+ 
+//  CLASS2.SECURITY = 1034  -  Level II Security
+module.exports.VSCP2_TYPE_SECURITY_GENERAL = 0,
+module.exports.VSCP2_TYPE_SECURITY_SETKEY = 1;
+
+
+vscp_type_map.set( (1034 << 16) + 0,'VSCP2_TYPE_SECURITY_GENERAL'); 
+vscp_type_map.set( (1034 << 16) + 1,'VSCP2_TYPE_SECURITY_SETKEY'); 
  
 //  CLASS2.MEASUREMENT_STR = 1040  -  Level II Measurement string
 // Event types is the same as  CLASS1.MEASUREMENT = 10  -  Measurement
