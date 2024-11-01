@@ -1,6 +1,6 @@
 {
   "name": "node-vscp-type",
-  "version": "1.0.20",
+  "version": "1.0.21",
   "description": "VSCP type constants",
   "main": "vscp-type.js",
   "scripts": {
