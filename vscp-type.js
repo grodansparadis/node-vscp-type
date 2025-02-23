@@ -39,7 +39,7 @@
             !!!!!!!!!!!!!!!!!!!!  W A R N I N G  !!!!!!!!!!!!!!!!!!!!
                            This file is auto-generated
                 see https://github.com/grodansparadis/vscp-classes
-                        Generated: 2024-11-05 21:04:18.941899
+                        Generated: 2025-02-20 18:01:06.998792
 */
 
 'use strict';
@@ -99,8 +99,14 @@ module.exports.VSCP_TYPE_PROTOCOL_GET_EVENT_INTEREST = 40,
 module.exports.VSCP_TYPE_PROTOCOL_GET_EVENT_INTEREST_RESPONSE = 41,
 module.exports.VSCP_TYPE_PROTOCOL_ACTIVATE_NEW_IMAGE_ACK = 48,
 module.exports.VSCP_TYPE_PROTOCOL_ACTIVATE_NEW_IMAGE_NACK = 49,
-module.exports.VSCP_TYPE_PROTOCOL_START_BLOCK_ACK = 50,
-module.exports.VSCP_TYPE_PROTOCOL_START_BLOCK_NACK = 51;
+module.exports.VSCP_TYPE_PROTOCOL_START_BLOCK_ACK  = 50,
+module.exports.VSCP_TYPE_PROTOCOL_START_BLOCK_NACK = 51,
+module.exports.VSCP_TYPE_PROTOCOL_BLOCK_CHUNK_ACK  = 52,
+module.exports.VSCP_TYPE_PROTOCOL_BLOCK_CHUNK_NACK = 53,
+module.exports.VSCP_TYPE_PROTOCOL_BOOT_LOADER_CHECK = 54,
+module.exports.VSCP_TYPE_PROTOCOL_BOOT_LOADER_ABORT = 55,
+module.exports.VSCP_TYPE_PROTOCOL_BOOT_LOADER_ABORT_ACK = 56,
+module.exports.VSCP_TYPE_PROTOCOL_BOOT_LOADER_ABORT_NACK = 57;
 
 
 vscp_type_map.set( (0 << 16) + 0,'VSCP_TYPE_PROTOCOL_GENERAL'); 
@@ -147,8 +153,14 @@ vscp_type_map.set( (0 << 16) + 40,'VSCP_TYPE_PROTOCOL_GET_EVENT_INTEREST');
 vscp_type_map.set( (0 << 16) + 41,'VSCP_TYPE_PROTOCOL_GET_EVENT_INTEREST_RESPONSE'); 
 vscp_type_map.set( (0 << 16) + 48,'VSCP_TYPE_PROTOCOL_ACTIVATE_NEW_IMAGE_ACK'); 
 vscp_type_map.set( (0 << 16) + 49,'VSCP_TYPE_PROTOCOL_ACTIVATE_NEW_IMAGE_NACK'); 
-vscp_type_map.set( (0 << 16) + 50,'VSCP_TYPE_PROTOCOL_START_BLOCK_ACK'); 
+vscp_type_map.set( (0 << 16) + 50,'VSCP_TYPE_PROTOCOL_START_BLOCK_ACK '); 
 vscp_type_map.set( (0 << 16) + 51,'VSCP_TYPE_PROTOCOL_START_BLOCK_NACK'); 
+vscp_type_map.set( (0 << 16) + 52,'VSCP_TYPE_PROTOCOL_BLOCK_CHUNK_ACK '); 
+vscp_type_map.set( (0 << 16) + 53,'VSCP_TYPE_PROTOCOL_BLOCK_CHUNK_NACK'); 
+vscp_type_map.set( (0 << 16) + 54,'VSCP_TYPE_PROTOCOL_BOOT_LOADER_CHECK'); 
+vscp_type_map.set( (0 << 16) + 55,'VSCP_TYPE_PROTOCOL_BOOT_LOADER_ABORT'); 
+vscp_type_map.set( (0 << 16) + 56,'VSCP_TYPE_PROTOCOL_BOOT_LOADER_ABORT_ACK'); 
+vscp_type_map.set( (0 << 16) + 57,'VSCP_TYPE_PROTOCOL_BOOT_LOADER_ABORT_NACK'); 
  
 //  CLASS1.ALARM = 1  -  Alarm functionality
 module.exports.VSCP_TYPE_ALARM_GENERAL = 0,
@@ -310,7 +322,7 @@ module.exports.VSCP_TYPE_MEASUREMENT_LUMINOUS_ENERGY = 43,
 module.exports.VSCP_TYPE_MEASUREMENT_LUMINANCE = 44,
 module.exports.VSCP_TYPE_MEASUREMENT_CHEMICAL_CONCENTRATION_MOLAR = 45,
 module.exports.VSCP_TYPE_MEASUREMENT_CHEMICAL_CONCENTRATION_MASS = 46,
-module.exports.VSCP_TYPE_MEASUREMENT_DOSE_EQVIVALENT = 47,
+module.exports.VSCP_TYPE_MEASUREMENT_RESERVED47 = 47,
 module.exports.VSCP_TYPE_MEASUREMENT_RESERVED48 = 48,
 module.exports.VSCP_TYPE_MEASUREMENT_DEWPOINT = 49,
 module.exports.VSCP_TYPE_MEASUREMENT_RELATIVE_LEVEL = 50,
@@ -324,7 +336,7 @@ module.exports.VSCP_TYPE_MEASUREMENT_SPECTRAL_IRRADIANCE = 57,
 module.exports.VSCP_TYPE_MEASUREMENT_SOUND_PRESSURE = 58,
 module.exports.VSCP_TYPE_MEASUREMENT_SOUND_DENSITY = 59,
 module.exports.VSCP_TYPE_MEASUREMENT_SOUND_LEVEL = 60,
-module.exports.VSCP_TYPE_MEASUREMENT_RADIATION_DOSE_EQ = 61,
+module.exports.VSCP_TYPE_MEASUREMENT_DOSE_EQVIVALENT = 61,
 module.exports.VSCP_TYPE_MEASUREMENT_RADIATION_DOSE_EXPOSURE = 62,
 module.exports.VSCP_TYPE_MEASUREMENT_POWER_FACTOR = 63,
 module.exports.VSCP_TYPE_MEASUREMENT_REACTIVE_POWER = 64,
@@ -378,7 +390,7 @@ vscp_type_map.set( (10 << 16) + 43,'VSCP_TYPE_MEASUREMENT_LUMINOUS_ENERGY');
 vscp_type_map.set( (10 << 16) + 44,'VSCP_TYPE_MEASUREMENT_LUMINANCE'); 
 vscp_type_map.set( (10 << 16) + 45,'VSCP_TYPE_MEASUREMENT_CHEMICAL_CONCENTRATION_MOLAR'); 
 vscp_type_map.set( (10 << 16) + 46,'VSCP_TYPE_MEASUREMENT_CHEMICAL_CONCENTRATION_MASS'); 
-vscp_type_map.set( (10 << 16) + 47,'VSCP_TYPE_MEASUREMENT_DOSE_EQVIVALENT'); 
+vscp_type_map.set( (10 << 16) + 47,'VSCP_TYPE_MEASUREMENT_RESERVED47'); 
 vscp_type_map.set( (10 << 16) + 48,'VSCP_TYPE_MEASUREMENT_RESERVED48'); 
 vscp_type_map.set( (10 << 16) + 49,'VSCP_TYPE_MEASUREMENT_DEWPOINT'); 
 vscp_type_map.set( (10 << 16) + 50,'VSCP_TYPE_MEASUREMENT_RELATIVE_LEVEL'); 
@@ -392,7 +404,7 @@ vscp_type_map.set( (10 << 16) + 57,'VSCP_TYPE_MEASUREMENT_SPECTRAL_IRRADIANCE');
 vscp_type_map.set( (10 << 16) + 58,'VSCP_TYPE_MEASUREMENT_SOUND_PRESSURE'); 
 vscp_type_map.set( (10 << 16) + 59,'VSCP_TYPE_MEASUREMENT_SOUND_DENSITY'); 
 vscp_type_map.set( (10 << 16) + 60,'VSCP_TYPE_MEASUREMENT_SOUND_LEVEL'); 
-vscp_type_map.set( (10 << 16) + 61,'VSCP_TYPE_MEASUREMENT_RADIATION_DOSE_EQ'); 
+vscp_type_map.set( (10 << 16) + 61,'VSCP_TYPE_MEASUREMENT_DOSE_EQVIVALENT'); 
 vscp_type_map.set( (10 << 16) + 62,'VSCP_TYPE_MEASUREMENT_RADIATION_DOSE_EXPOSURE'); 
 vscp_type_map.set( (10 << 16) + 63,'VSCP_TYPE_MEASUREMENT_POWER_FACTOR'); 
 vscp_type_map.set( (10 << 16) + 64,'VSCP_TYPE_MEASUREMENT_REACTIVE_POWER'); 
@@ -640,9 +652,9 @@ module.exports.VSCP_TYPE_CONTROL_RESUME = 13,
 module.exports.VSCP_TYPE_CONTROL_PAUSE = 14,
 module.exports.VSCP_TYPE_CONTROL_ACTIVATE = 15,
 module.exports.VSCP_TYPE_CONTROL_DEACTIVATE = 16,
-module.exports.VSCP_TYPE_CONTROL_RESERVED17 = 17,
-module.exports.VSCP_TYPE_CONTROL_RESERVED18 = 18,
-module.exports.VSCP_TYPE_CONTROL_RESERVED19 = 19,
+module.exports.VSCP_TYPE_CONTROL_TURN_ALL_OFF = 17,
+module.exports.VSCP_TYPE_CONTROL_TURN_ALL_ON = 18,
+module.exports.VSCP_TYPE_CONTROL_TURN_ALL_X = 19,
 module.exports.VSCP_TYPE_CONTROL_DIM_LAMPS = 20,
 module.exports.VSCP_TYPE_CONTROL_CHANGE_CHANNEL = 21,
 module.exports.VSCP_TYPE_CONTROL_CHANGE_LEVEL = 22,
@@ -696,9 +708,9 @@ vscp_type_map.set( (30 << 16) + 13,'VSCP_TYPE_CONTROL_RESUME');
 vscp_type_map.set( (30 << 16) + 14,'VSCP_TYPE_CONTROL_PAUSE'); 
 vscp_type_map.set( (30 << 16) + 15,'VSCP_TYPE_CONTROL_ACTIVATE'); 
 vscp_type_map.set( (30 << 16) + 16,'VSCP_TYPE_CONTROL_DEACTIVATE'); 
-vscp_type_map.set( (30 << 16) + 17,'VSCP_TYPE_CONTROL_RESERVED17'); 
-vscp_type_map.set( (30 << 16) + 18,'VSCP_TYPE_CONTROL_RESERVED18'); 
-vscp_type_map.set( (30 << 16) + 19,'VSCP_TYPE_CONTROL_RESERVED19'); 
+vscp_type_map.set( (30 << 16) + 17,'VSCP_TYPE_CONTROL_TURN_ALL_OFF'); 
+vscp_type_map.set( (30 << 16) + 18,'VSCP_TYPE_CONTROL_TURN_ALL_ON'); 
+vscp_type_map.set( (30 << 16) + 19,'VSCP_TYPE_CONTROL_TURN_ALL_X'); 
 vscp_type_map.set( (30 << 16) + 20,'VSCP_TYPE_CONTROL_DIM_LAMPS'); 
 vscp_type_map.set( (30 << 16) + 21,'VSCP_TYPE_CONTROL_CHANGE_CHANNEL'); 
 vscp_type_map.set( (30 << 16) + 22,'VSCP_TYPE_CONTROL_CHANGE_LEVEL'); 
